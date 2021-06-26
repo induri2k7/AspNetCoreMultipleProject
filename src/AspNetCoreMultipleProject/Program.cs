@@ -14,6 +14,7 @@ namespace AspNetCoreMultipleProject
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    //Sample code
                     webBuilder.UseStartup<Startup>();
                 });
     }
